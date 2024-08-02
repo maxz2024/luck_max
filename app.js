@@ -14,7 +14,7 @@ const winUserRouter = require("./routes/winUser");
 logger.setDate(() => (new Date()).toLocaleString())
 
 const app = express();
-const PORT = 3003;
+const PORT = require('../ports.json').luck_max;
 
 connectToDatabase();
 
@@ -32,5 +32,5 @@ app.use(
 );
 
 app.listen(PORT);
-logger.success("Сервер запущен!")
+logger.success(`Сервер запущен на ${PORT}!`)
 MainBot()
