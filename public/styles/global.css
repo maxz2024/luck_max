@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #007acc;
+  /* Изменен цвет фона на более привлекательный */
+  font-family: "Arial", sans-serif;
+  /* Изменен шрифт на более красивый */
+}
+
+.box {
+  width: 90%;
+  /* Уменьшен размер блока для лучшей видимости */
+  height: 90%;
+  /* Уменьшен размер блока для лучшей видимости */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f0f0f0;
+  /* Добавлен фон для блока */
+  border-radius: 10px;
+  /* Добавлен радиус для границ */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Добавен тень для блока */
+  font-family: "Arial", sans-serif;
+  /* Изменен шрифт на более красивый */
+  padding: 0 10px;
+  /* Добавлен внутренний отступ по бокам на 10 px */
+}
+
+.button-telegram {
+  width: 200px;
+  height: 50px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Arial", sans-serif;
+}

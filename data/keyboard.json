@@ -1,0 +1,214 @@
+{
+  "ru": {
+    "users": {
+      "start_auth": [
+        [
+          {
+            "text": "🚀ПОЛУЧИТЬ СИГНАЛ",
+            "web_app": {
+              "url": "https://duracell.space"
+            }
+          }
+        ],
+        [
+          {
+            "text": "ПОМОЩЬ 💡",
+            "callback_data": "but_help"
+          }
+        ]
+      ],
+      "start_guest": [
+        [
+          {
+            "text": "ПРОЙТИ РЕГИСТРАЦИЮ ✅",
+            "callback_data": "but_auth"
+          }
+        ],
+        [
+          {
+            "text": "ПОМОЩЬ 💡",
+            "callback_data": "but_help"
+          }
+        ]
+      ],
+      "auth_keyboard": [
+        [
+          {
+            "text": "САЙТ ДЛЯ РЕГИСТРАЦИИ",
+            "url": "https://1wimdx.life/casino/list?open=register&p=vw54"
+          }
+        ],
+        [
+          {
+            "text": "ПРОВЕРИТЬ РЕГИСТРАЦИЮ ✅",
+            "callback_data": "check_id_auth"
+          }
+        ]
+      ],
+      "auth_true": [
+        [
+          {
+            "text": "ВНЕСТИ ДЕПОЗИТ",
+            "url": "https://1wimdx.life/casino/list?open=register&p=vw54"
+          }
+        ],
+        [{ "text": "✅Готово", "callback_data": "check_deposit" }]
+      ],
+      "auth_false": [
+        [{ "text": "ПОРОБОВАТЬ ЕЩЕ", "callback_data": "check_id_auth" }]
+      ],
+      "check_deposit_true": [
+        [
+          {
+            "text": "🚀ПОЛУЧИТЬ СИГНАЛ",
+            "web_app": {
+              "url": "https://duracell.space"
+            }
+          }
+        ]
+      ],
+      "help_keyboard": [
+        [{"text": "🏠МЕНЮ🏠", "callback_data":"start_but"}]
+      ]
+    },
+    "admin": {
+      "start": [
+        [
+          {
+            "text": "🚀ПОЛУЧИТЬ СИГНАЛ",
+            "web_app": {
+              "url": "https://duracell.space"
+            }
+          },
+          {
+            "text": "ПОМОЩЬ 💡",
+            "callback_data": "but_help"
+          }
+        ],
+        [
+          {
+            "text": "Рассылка",
+            "callback_data": "but_admin_sending"
+          },
+          {
+            "text": "Управление users",
+            "callback_data": "but_admin_management"
+          }
+        ]
+      ],
+      "sending_answer": [
+        [
+          { "text": "Да", "callback_data": "but_yes_sending" },
+          { "text": "Нет, изменить", "callback_data": "but_no_edit_sending" }
+        ],
+        [{ "text": "Добавьте кнопку", "callback_data": "add_but_post" }]
+      ]
+    }
+  },
+  "en": {
+    "users": {
+      "start_auth": [
+        [
+          {
+            "text": "🚀GET SIGNAL",
+            "web_app": {
+              "url": "https://duracell.space"
+            }
+          }
+        ],
+        [
+          {
+            "text": "HELP 💡",
+            "callback_data": "but_help"
+          }
+        ]
+      ],
+      "start_guest": [
+        [
+          {
+            "text": "CHECK REGISTRATION ✅",
+            "callback_data": "but_auth"
+          }
+        ],
+        [
+          {
+            "text": "HELP 💡",
+            "callback_data": "but_help"
+          }
+        ]
+      ],
+      "auth_keyboard": [
+        [
+          {
+            "text": "REGISTRATION SITE",
+            "url": "https://1wimdx.life/casino/list?open=register&p=vw54"
+          }
+        ],
+        [
+          {
+            "text": "CHECK REGISTRATION ✅",
+            "callback_data": "check_id_auth"
+          }
+        ]
+      ],
+      "auth_true": [
+        [
+          {
+            "text": "DEPOSIT",
+            "url": "https://1wimdx.life/casino/list?open=register&p=vw54"
+          }
+        ],
+        [{ "text": "✅Done", "callback_data": "check_deposit" }]
+      ],
+      "auth_false": [
+        [{ "text": "TRY AGAIN", "callback_data": "check_id_auth" }]
+      ],
+      "check_deposit_true": [
+        [
+          {
+            "text": "🚀GET SIGNAL",
+            "web_app": {
+              "url": "https://duracell.space"
+            }
+          }
+        ]
+      ],
+      "help_keyboard": [
+        [{"text": "🏠MENU🏠", "callback_data":"start_but"}]
+      ]
+    },
+    "admin": {
+      "start": [
+        [
+          {
+            "text": "🚀GET SIGNAL",
+            "web_app": {
+              "url": "https://duracell.space"
+            }
+          },
+          {
+            "text": "HELP 💡",
+            "callback_data": "but_help"
+          }
+        ],
+        [
+          {
+            "text": "Sending",
+            "callback_data": "but_admin_sending"
+          },
+          {
+            "text": "User management",
+            "callback_data": "but_admin_management"
+          }
+        ]
+      ],
+      "sending_answer": [
+        [
+          { "text": "Yes", "callback_data": "but_yes_sending" },
+          { "text": "No, change", "callback_data": "but_no_edit_sending" }
+        ],
+        [{ "text": "Add button", "callback_data": "add_but_post" }]
+      ]
+    }
+  }
+}

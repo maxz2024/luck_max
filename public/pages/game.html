@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Crach game</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <img class="logo" src="../images/logo.jpg" alt="Лого">
+    <div class="container text-center" style="display: flex;
+    flex-direction: column;
+    align-items: center">
+        <div class="title">ZEROX MONEY 💰</div> <!-- Заголовок -->
+        <div class="ball_block">
+            <!-- <div class="ball" id="ball"></div> -->
+        </div>
+        
+        <div class="cof">
+            <span class="counter-prefix">x</span><span class="counter-number" id="counter">1.00</span>
+        </div>
+        <button class="btn btn-primary btn-signal" onclick="startCounter()"><span style="padding-right: 10px;">Сигнал</span><svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.11002 3.83401C9.35007 3.68998 9.64996 3.68998 9.89001 3.83401L16.2283 7.63696C17.228 8.23683 18.5 7.51666 18.5 6.35072C18.5 5.82382 18.2236 5.33556 17.7717 5.06448L10.6142 0.769973C9.92841 0.358478 9.07162 0.358478 8.38579 0.769973L1.22826 5.0645C0.776449 5.33558 0.5 5.82384 0.5 6.35074C0.5 7.51668 1.77196 8.23685 2.77174 7.63697L9.11002 3.83401Z" fill="#040405"></path><path opacity="0.2" d="M9.11002 10.7326C9.35007 10.5885 9.64996 10.5885 9.89001 10.7326L16.2283 14.5355C17.228 15.1354 18.5 14.4152 18.5 13.2493C18.5 12.7224 18.2236 12.2341 17.7717 11.963L10.6142 7.66853C9.92841 7.25704 9.07162 7.25704 8.38579 7.66853L1.22826 11.9631C0.776449 12.2341 0.5 12.7224 0.5 13.2493C0.5 14.4152 1.77196 15.1354 2.77174 14.5355L9.11002 10.7326Z" fill="#040405"></path></svg></button>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <!-- <script src="./scripts/chech-validation.js"></script> -->
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
